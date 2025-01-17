@@ -1,0 +1,10 @@
+CREATE TABLE Usuarios(
+	Id int IDENTITY(1,1),
+	Nome VARCHAR(100),
+	Email VARCHAR(100),
+	Cargo VARCHAR(100),
+	Salario DECIMAL,
+	CPF VARCHAR(11),
+	Situacao BIT,
+	Senha VARCHAR(100)
+)

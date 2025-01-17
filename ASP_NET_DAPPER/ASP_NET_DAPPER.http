@@ -1,0 +1,6 @@
+@ASP_NET_DAPPER_HostAddress = http://localhost:5297
+
+GET {{ASP_NET_DAPPER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
